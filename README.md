@@ -1,1 +1,2 @@
-# bd
+# Diagrama:
+![](image.png)
