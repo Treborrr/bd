@@ -3,9 +3,9 @@
     "version": "2.2.13",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -11,
-    "scrollLeft": -232.82860123456788,
-    "zoomLevel": 1,
+    "scrollTop": -105,
+    "scrollLeft": -195.99317958872794,
+    "zoomLevel": 0.9,
     "show": {
       "tableComment": false,
       "columnComment": false,
@@ -211,9 +211,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 326.5,
-          "top": 94.5,
-          "zIndex": 12,
+          "left": 228.5,
+          "top": 58.5,
+          "zIndex": 124,
           "widthName": 60,
           "widthComment": 60
         },
@@ -221,7 +221,7 @@
       },
       {
         "id": "b5f30663-63e3-4349-b46d-f382111f9c71",
-        "name": "Receta",
+        "name": "Receta General",
         "comment": "",
         "columns": [
           {
@@ -242,6 +242,52 @@
               "fk": false,
               "pfk": false,
               "widthName": 63.419921875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "06c8acca-01ac-4a7b-a2f0-8d549c89ff01",
+            "name": "Autor",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "4ba94afb-8bf4-4b9b-8096-83f99f80bb1b",
+            "name": "Titulo",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -271,29 +317,6 @@
             }
           },
           {
-            "id": "c4a14f61-9a76-4f7a-89e0-4e267f3d1feb",
-            "name": "Tiempo de preparacion",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 135.20556640625,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
             "id": "c154806d-b69c-4b7f-937c-f128bfe7b8ed",
             "name": "Raciones",
             "comment": "",
@@ -311,6 +334,29 @@
               "fk": false,
               "pfk": false,
               "widthName": 60,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "0853e5d7-2695-459d-9eee-01ebe8839d21",
+            "name": "Nivel de dificultad",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 103.88623046875,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -361,14 +407,60 @@
               "widthDataType": 60,
               "widthDefault": 60
             }
+          },
+          {
+            "id": "1eab7d01-1754-40c4-bf58-366965f3357f",
+            "name": "ID_CrearReceta",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 95.92626953125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "2face270-0337-47b7-afbe-c1bf4ea6c584",
+            "name": "ID_Cocina",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 62.6962890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
           }
         ],
         "ui": {
           "active": false,
-          "left": 939,
-          "top": 223,
-          "zIndex": 6,
-          "widthName": 60,
+          "left": 1107.8896,
+          "top": 281.3326,
+          "zIndex": 343,
+          "widthName": 93.05078125,
           "widthComment": 60
         },
         "visible": true
@@ -425,7 +517,7 @@
             }
           },
           {
-            "id": "668faa6a-6286-4bc0-9b86-0b02bebf7ea7",
+            "id": "41ebab33-4dd1-400c-a742-f3c99d3c15ad",
             "name": "Descripcion",
             "comment": "",
             "dataType": "",
@@ -450,9 +542,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1185.5,
-          "top": 31,
-          "zIndex": 8,
+          "left": 580.1668,
+          "top": 379.1107,
+          "zIndex": 345,
           "widthName": 60,
           "widthComment": 60
         },
@@ -487,30 +579,7 @@
             }
           },
           {
-            "id": "65fc22f6-ed91-485d-9678-ac1bebe0b2b3",
-            "name": "Nombre",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "id": "26763020-5ac3-4a55-a20a-d2a8c331a84a",
+            "id": "af5b3f32-f42d-4b57-a78c-ac5008b946a9",
             "name": "Origen",
             "comment": "",
             "dataType": "",
@@ -534,7 +603,7 @@
           },
           {
             "id": "c6d0c4e9-9ae9-4c75-9b0b-6710bd9b9a8f",
-            "name": "Popularidad",
+            "name": "Descripcion",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -549,30 +618,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 71.38623046875,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "id": "de8cc889-846e-4bcd-a14e-904647331a82",
-            "name": "ID_Receta",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 69.91357421875,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -581,9 +627,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1308,
-          "top": 276.5,
-          "zIndex": 7,
+          "left": 755.7768,
+          "top": 561.6104,
+          "zIndex": 346,
           "widthName": 60,
           "widthComment": 60
         },
@@ -618,52 +664,6 @@
             }
           },
           {
-            "id": "2afd157a-05dd-4cbc-959f-d2475441086d",
-            "name": "Numero de pasos",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 104.60986328125,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "id": "5108a630-50cf-405a-9de3-e68ac2c44202",
-            "name": "Cantidad",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 60,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
             "id": "223c1aee-668e-4fc4-a83c-1746a2a4cf4a",
             "name": "Nombre",
             "comment": "",
@@ -687,8 +687,8 @@
             }
           },
           {
-            "id": "6cf76bab-0152-48a2-95ec-aa7c5e8befa9",
-            "name": "ID_Receta",
+            "id": "a4b6119e-203b-4427-b06a-3161f120a9bb",
+            "name": "ID_VIngrediente",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -701,9 +701,9 @@
             "ui": {
               "active": false,
               "pk": false,
-              "fk": true,
+              "fk": false,
               "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 95.95166015625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -712,9 +712,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 964.2145,
-          "top": 657.1431,
-          "zIndex": 3,
+          "left": 1287.548,
+          "top": 631.476,
+          "zIndex": 316,
           "widthName": 73.55078125,
           "widthComment": 60
         },
@@ -750,7 +750,7 @@
           },
           {
             "id": "0568673e-7425-4d36-becc-cf37dcfcd904",
-            "name": "Numero de pasos",
+            "name": "Pasos de preparacion",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -765,7 +765,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 104.60986328125,
+              "widthName": 128.470703125,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -773,7 +773,7 @@
           },
           {
             "id": "bad73b24-e5ae-4b72-a540-4ee0bcbedfe3",
-            "name": "Descripcion",
+            "name": "Descripcion de  la preparacion",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -788,7 +788,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 69.91357421875,
+              "widthName": 177.59521484375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -816,13 +816,36 @@
               "widthDataType": 60,
               "widthDefault": 60
             }
+          },
+          {
+            "id": "2facce76-e6a9-4ef1-bcf6-52cb5381b272",
+            "name": "ID_CrearReceta",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 95.92626953125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
           }
         ],
         "ui": {
           "active": false,
-          "left": 1141.1429,
-          "top": 653.9286,
-          "zIndex": 2,
+          "left": 700.8099,
+          "top": 787.2622,
+          "zIndex": 348,
           "widthName": 78.5908203125,
           "widthComment": 60
         },
@@ -951,9 +974,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 749,
-          "top": 15,
-          "zIndex": 5,
+          "left": 891.5554,
+          "top": 107.7774,
+          "zIndex": 340,
           "widthName": 75.6962890625,
           "widthComment": 60
         },
@@ -1011,6 +1034,29 @@
             }
           },
           {
+            "id": "74b0440c-d065-4cb1-b1eb-194f2290dfca",
+            "name": "Valoracion",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 62.46142578125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
             "id": "ade155c5-2a95-4950-ab5a-08fd9ad435ba",
             "name": "ID_Usuario",
             "comment": "",
@@ -1059,9 +1105,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 788.2145,
-          "top": 529.1427,
-          "zIndex": 9,
+          "left": 1157.881,
+          "top": 13.5876,
+          "zIndex": 339,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1167,9 +1213,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 592.1431,
-          "top": 288.9999,
-          "zIndex": 4,
+          "left": 526.1436,
+          "top": 217.7776,
+          "zIndex": 342,
           "widthName": 93.76171875,
           "widthComment": 60
         },
@@ -1177,12 +1223,12 @@
       },
       {
         "id": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
-        "name": "Receta usuario",
+        "name": "Crear Receta",
         "comment": "",
         "columns": [
           {
             "id": "7f679fbc-db11-489d-b6a5-4f45905aedd6",
-            "name": "ID_RecetaUsuario",
+            "name": "ID_CrearReceta",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -1197,7 +1243,30 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 108.21533203125,
+              "widthName": 95.92626953125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "cd32634f-04e4-4afe-9c79-660db9480c61",
+            "name": "Fecha de Creacion",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.83984375,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1227,7 +1296,7 @@
             }
           },
           {
-            "id": "ecc26e8f-7125-4c0e-ad18-6d553bef7b59",
+            "id": "2427c56e-eb9b-4550-a734-254fad203a50",
             "name": "Descripcion",
             "comment": "",
             "dataType": "",
@@ -1244,29 +1313,6 @@
               "fk": false,
               "pfk": false,
               "widthName": 69.91357421875,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "id": "c61c5bf8-4019-41fa-a718-d44701e38a89",
-            "name": "Tiempo de preparacion",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": false
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": false,
-              "pfk": false,
-              "widthName": 135.20556640625,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1319,6 +1365,29 @@
             }
           },
           {
+            "id": "cc357123-6ab5-434a-ab31-ecea20382fa4",
+            "name": "Historial de Cambios",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 121.9326171875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
             "id": "21bba57f-344e-46a7-b752-cc53eb5ec760",
             "name": "ID_Usuario",
             "comment": "",
@@ -1342,7 +1411,161 @@
             }
           },
           {
-            "id": "8b87d9f6-afb6-4104-891d-73e652d970d8",
+            "id": "ad420acb-8a87-4b89-9366-adee8564f3d1",
+            "name": "ID_Categoria",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 78.59716796875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "b2102d70-e893-45d6-9899-e9605b707afa",
+            "name": "ID_Cocina",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 62.6962890625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "ui": {
+          "active": true,
+          "left": 330.2941,
+          "top": 518.1263,
+          "zIndex": 349,
+          "widthName": 79.30810546875,
+          "widthComment": 60
+        },
+        "visible": true
+      },
+      {
+        "id": "d1f9bebe-5f77-4965-89fd-a1cbc70c05e8",
+        "name": "VariedadIngredientes",
+        "comment": "",
+        "columns": [
+          {
+            "id": "88fc5397-b01d-44df-bae0-97c6869ff458",
+            "name": "ID_VIngrediente",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": true,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 95.95166015625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "611167e0-4771-4246-b817-a94bee845715",
+            "name": "Cantidades",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 67.76806640625,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "05ab25d3-1fcd-4890-8f51-3fd57978dfaa",
+            "name": "Unidades de Medida",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 121.2470703125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "c6f297e7-0b8c-429f-bbcd-1d1bb119fb41",
+            "name": "ID_Ingrediente",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 87.28076171875,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "2f498a7d-8891-44ac-8585-e4ea02d41eb8",
             "name": "ID_Receta",
             "comment": "",
             "dataType": "",
@@ -1363,14 +1586,37 @@
               "widthDataType": 60,
               "widthDefault": 60
             }
+          },
+          {
+            "id": "f87b9745-b713-4718-affd-248cb623c751",
+            "name": "ID_CrearReceta",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": true,
+              "pfk": false,
+              "widthName": 95.92626953125,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
           }
         ],
         "ui": {
           "active": false,
-          "left": 437.0716,
-          "top": 606.571,
-          "zIndex": 10,
-          "widthName": 89.43896484375,
+          "left": 989.5398,
+          "top": 650.8902,
+          "zIndex": 347,
+          "widthName": 124.6240234375,
           "widthComment": 60
         },
         "visible": true
@@ -1393,8 +1639,8 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 502.181640625,
-          "y": 200.75,
+          "x": 404.181640625,
+          "y": 244.4375,
           "direction": "right"
         },
         "end": {
@@ -1402,8 +1648,8 @@
           "columnIds": [
             "97550a8a-f7da-4fcd-8f12-df2421a6bb65"
           ],
-          "x": 939,
-          "y": 295,
+          "x": 1107.8896,
+          "y": 308.7326,
           "direction": "left"
         },
         "constraintName": "fk_usuario_to_receta",
@@ -1419,8 +1665,8 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 502.181640625,
-          "y": 129.91666666666666,
+          "x": 404.181640625,
+          "y": 138.1875,
           "direction": "right"
         },
         "end": {
@@ -1428,8 +1674,8 @@
           "columnIds": [
             "b0b08894-ebe0-41f9-9293-530bd1cb73f3"
           ],
-          "x": 749,
-          "y": 100.75,
+          "x": 891.5554,
+          "y": 193.5274,
           "direction": "left"
         },
         "constraintName": "fk_usuario_to_comentarios",
@@ -1445,17 +1691,17 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 458.26123046875,
-          "y": 307,
-          "direction": "bottom"
+          "x": 404.181640625,
+          "y": 85.0625,
+          "direction": "right"
         },
         "end": {
           "tableId": "b946d987-052d-47a7-862e-6de73757f9df",
           "columnIds": [
             "ade155c5-2a95-4950-ab5a-08fd9ad435ba"
           ],
-          "x": 788.2145,
-          "y": 604.6427,
+          "x": 1157.881,
+          "y": 99.3376,
           "direction": "left"
         },
         "constraintName": "fk_usuario_to_me gusta",
@@ -1471,8 +1717,8 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 502.181640625,
-          "y": 271.5833333333333,
+          "x": 404.181640625,
+          "y": 191.3125,
           "direction": "right"
         },
         "end": {
@@ -1480,37 +1726,11 @@
           "columnIds": [
             "ee0c68f3-c9b9-4dc5-b386-c6b1ac26a7b9"
           ],
-          "x": 592.1431,
-          "y": 364.4999,
+          "x": 526.1436,
+          "y": 293.2776,
           "direction": "left"
         },
         "constraintName": "fk_usuario_to_receta favorita",
-        "visible": true
-      },
-      {
-        "id": "ec3f2c56-a205-42b4-9171-f96bdda7f74f",
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "b5f30663-63e3-4349-b46d-f382111f9c71",
-          "columnIds": [
-            "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
-          ],
-          "x": 1033.102783203125,
-          "y": 415,
-          "direction": "bottom"
-        },
-        "end": {
-          "tableId": "87bdfda2-f97f-4cbf-abd1-5931042fe42f",
-          "columnIds": [
-            "6cf76bab-0152-48a2-95ec-aa7c5e8befa9"
-          ],
-          "x": 1043.019431640625,
-          "y": 657.1431,
-          "direction": "top"
-        },
-        "constraintName": "fk_receta_to_ingredientes",
         "visible": true
       },
       {
@@ -1523,8 +1743,8 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 1095.8379720052083,
-          "y": 415,
+          "x": 1147.1111576171875,
+          "y": 555.3326,
           "direction": "bottom"
         },
         "end": {
@@ -1532,9 +1752,9 @@
           "columnIds": [
             "a5191838-4b56-41c2-b875-38f91640656d"
           ],
-          "x": 1219.947831640625,
-          "y": 653.9286,
-          "direction": "top"
+          "x": 931.40511484375,
+          "y": 873.0122,
+          "direction": "right"
         },
         "constraintName": "fk_receta_to_instrucciones",
         "visible": true
@@ -1549,18 +1769,18 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 970.3675944010417,
-          "y": 415,
-          "direction": "bottom"
+          "x": 1225.5542728515625,
+          "y": 281.3326,
+          "direction": "top"
         },
         "end": {
           "tableId": "b946d987-052d-47a7-862e-6de73757f9df",
           "columnIds": [
             "a60b6028-c31e-4e5d-b1a6-75536e5c75ee"
           ],
-          "x": 869.190330078125,
-          "y": 529.1427,
-          "direction": "top"
+          "x": 1238.856830078125,
+          "y": 185.0876,
+          "direction": "bottom"
         },
         "constraintName": "fk_receta_to_me gusta",
         "visible": true
@@ -1575,8 +1795,8 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 370.42041015625,
-          "y": 307,
+          "x": 316.3408203125,
+          "y": 271,
           "direction": "bottom"
         },
         "end": {
@@ -1584,37 +1804,11 @@
           "columnIds": [
             "21bba57f-344e-46a7-b752-cc53eb5ec760"
           ],
-          "x": 484.1229916015625,
-          "y": 606.571,
+          "x": 374.027254296875,
+          "y": 518.1263,
           "direction": "top"
         },
         "constraintName": "fk_usuario_to_receta usuario",
-        "visible": true
-      },
-      {
-        "id": "04999bc6-8b09-4085-9bb6-3fcbd8cc2f16",
-        "identification": false,
-        "relationshipType": "OneN",
-        "startRelationshipType": "Dash",
-        "start": {
-          "tableId": "b5f30663-63e3-4349-b46d-f382111f9c71",
-          "columnIds": [
-            "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
-          ],
-          "x": 939,
-          "y": 391,
-          "direction": "left"
-        },
-        "end": {
-          "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
-          "columnIds": [
-            "8b87d9f6-afb6-4104-891d-73e652d970d8"
-          ],
-          "x": 578.2257748046875,
-          "y": 606.571,
-          "direction": "top"
-        },
-        "constraintName": "fk_receta_to_receta usuario",
         "visible": true
       },
       {
@@ -1627,8 +1821,8 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 939,
-          "y": 343,
+          "x": 1107.8896,
+          "y": 363.5326,
           "direction": "left"
         },
         "end": {
@@ -1636,8 +1830,8 @@
           "columnIds": [
             "656385f5-a212-46c1-8445-7210163a36eb"
           ],
-          "x": 755.5229828125,
-          "y": 364.4999,
+          "x": 689.5234828125,
+          "y": 293.2776,
           "direction": "right"
         },
         "constraintName": "fk_receta_to_receta favorita",
@@ -1653,18 +1847,18 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 939,
-          "y": 247,
-          "direction": "left"
+          "x": 1147.1111576171875,
+          "y": 281.3326,
+          "direction": "top"
         },
         "end": {
           "tableId": "ff5cb572-9d66-4939-95a5-32782d3a864b",
           "columnIds": [
             "0aeef3ce-2d9e-4e28-b487-e9185b941360"
           ],
-          "x": 829.975830078125,
-          "y": 186.5,
-          "direction": "bottom"
+          "x": 1053.50706015625,
+          "y": 193.5274,
+          "direction": "right"
         },
         "constraintName": "fk_receta_to_comentarios",
         "visible": true
@@ -1679,24 +1873,50 @@
           "columnIds": [
             "ba8c0cdd-eeeb-43e9-95db-fd014ad03419"
           ],
-          "x": 1185.5,
-          "y": 96.25,
-          "direction": "left"
+          "x": 711.76396796875,
+          "y": 444.3607,
+          "direction": "right"
         },
         "end": {
           "tableId": "b5f30663-63e3-4349-b46d-f382111f9c71",
           "columnIds": [
             "054c5057-a911-41c5-8ea1-1613c2aa2bd3"
           ],
-          "x": 1033.102783203125,
-          "y": 223,
-          "direction": "top"
+          "x": 1107.8896,
+          "y": 418.3326,
+          "direction": "left"
         },
         "constraintName": "fk_categoria_to_receta",
         "visible": true
       },
       {
-        "id": "b8cf5ad7-291a-4f89-a84f-1e840bcfc94d",
+        "id": "d3e237dc-aff1-4fe7-87d9-8eddb76c79bc",
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "87bdfda2-f97f-4cbf-abd1-5931042fe42f",
+          "columnIds": [
+            "4d91f20f-cd17-4610-9579-f3987979a358"
+          ],
+          "x": 1287.548,
+          "y": 696.726,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "d1f9bebe-5f77-4965-89fd-a1cbc70c05e8",
+          "columnIds": [
+            "c6f297e7-0b8c-429f-bbcd-1d1bb119fb41"
+          ],
+          "x": 1163.7868703125,
+          "y": 746.8902,
+          "direction": "right"
+        },
+        "constraintName": "fk_ingredientes_to_variedadingredientes",
+        "visible": true
+      },
+      {
+        "id": "d50ea90c-5170-4daf-aff3-772ffb75a751",
         "identification": false,
         "relationshipType": "OneN",
         "startRelationshipType": "Dash",
@@ -1705,20 +1925,176 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 1127.20556640625,
-          "y": 319,
+          "x": 1225.5542728515625,
+          "y": 555.3326,
+          "direction": "bottom"
+        },
+        "end": {
+          "tableId": "d1f9bebe-5f77-4965-89fd-a1cbc70c05e8",
+          "columnIds": [
+            "2f498a7d-8891-44ac-8585-e4ea02d41eb8"
+          ],
+          "x": 1076.66333515625,
+          "y": 650.8902,
+          "direction": "top"
+        },
+        "constraintName": "fk_receta_to_variedadingredientes",
+        "visible": true
+      },
+      {
+        "id": "a606ea82-7596-4462-bfe8-ac4ba62704eb",
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "07858550-9e20-4cf6-9d03-f3a9680e92f1",
+          "columnIds": [
+            "0b153bd6-b65d-4277-8054-bac4d0c2ee2b"
+          ],
+          "x": 878.69037421875,
+          "y": 626.8604,
           "direction": "right"
         },
         "end": {
-          "tableId": "07858550-9e20-4cf6-9d03-f3a9680e92f1",
+          "tableId": "b5f30663-63e3-4349-b46d-f382111f9c71",
           "columnIds": [
-            "de8cc889-846e-4bcd-a14e-904647331a82"
+            "2face270-0337-47b7-afbe-c1bf4ea6c584"
           ],
-          "x": 1308,
-          "y": 362.25,
+          "x": 1107.8896,
+          "y": 473.1326,
           "direction": "left"
         },
-        "constraintName": "fk_receta_to_cocina",
+        "constraintName": "fk_cocina_to_receta",
+        "visible": true
+      },
+      {
+        "id": "883f0eb7-fc17-4791-92b4-3749df1f9118",
+        "identification": false,
+        "relationshipType": "OneOnly",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
+          "columnIds": [
+            "7f679fbc-db11-489d-b6a5-4f45905aedd6"
+          ],
+          "x": 505.2267171875,
+          "y": 552.3763,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "b5f30663-63e3-4349-b46d-f382111f9c71",
+          "columnIds": [
+            "1eab7d01-1754-40c4-bf58-366965f3357f"
+          ],
+          "x": 1107.8896,
+          "y": 527.9326,
+          "direction": "left"
+        },
+        "constraintName": "fk_crear receta_to_receta general",
+        "visible": true
+      },
+      {
+        "id": "b4715a02-8dda-4ce5-bad4-43b070ef6695",
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
+          "columnIds": [
+            "7f679fbc-db11-489d-b6a5-4f45905aedd6"
+          ],
+          "x": 505.2267171875,
+          "y": 757.8763,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "e6d6ce7e-90bf-433e-9518-b53a7849de5b",
+          "columnIds": [
+            "2facce76-e6a9-4ef1-bcf6-52cb5381b272"
+          ],
+          "x": 700.8099,
+          "y": 873.0122,
+          "direction": "left"
+        },
+        "constraintName": "fk_crear receta_to_instrucciones",
+        "visible": true
+      },
+      {
+        "id": "7e52ddbb-4b92-444d-b4e7-fd8e4d63c3ac",
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
+          "columnIds": [
+            "7f679fbc-db11-489d-b6a5-4f45905aedd6"
+          ],
+          "x": 505.2267171875,
+          "y": 689.3763,
+          "direction": "right"
+        },
+        "end": {
+          "tableId": "d1f9bebe-5f77-4965-89fd-a1cbc70c05e8",
+          "columnIds": [
+            "f87b9745-b713-4718-affd-248cb623c751"
+          ],
+          "x": 989.5398,
+          "y": 746.8902,
+          "direction": "left"
+        },
+        "constraintName": "fk_crear receta_to_variedadingredientes",
+        "visible": true
+      },
+      {
+        "id": "a47836cf-fb16-4029-a0bb-0f24e7d15d78",
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "cc5bb47a-5519-4892-bc48-d0306b02d3d0",
+          "columnIds": [
+            "ba8c0cdd-eeeb-43e9-95db-fd014ad03419"
+          ],
+          "x": 580.1668,
+          "y": 444.3607,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
+          "columnIds": [
+            "ad420acb-8a87-4b89-9366-adee8564f3d1"
+          ],
+          "x": 461.493562890625,
+          "y": 518.1263,
+          "direction": "top"
+        },
+        "constraintName": "fk_categoria_to_crear receta",
+        "visible": true
+      },
+      {
+        "id": "9f476013-5199-4eee-b895-9043e5ec81cd",
+        "identification": false,
+        "relationshipType": "OneN",
+        "startRelationshipType": "Dash",
+        "start": {
+          "tableId": "07858550-9e20-4cf6-9d03-f3a9680e92f1",
+          "columnIds": [
+            "0b153bd6-b65d-4277-8054-bac4d0c2ee2b"
+          ],
+          "x": 755.7768,
+          "y": 626.8604,
+          "direction": "left"
+        },
+        "end": {
+          "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
+          "columnIds": [
+            "b2102d70-e893-45d6-9899-e9605b707afa"
+          ],
+          "x": 505.2267171875,
+          "y": 620.8763,
+          "direction": "right"
+        },
+        "constraintName": "fk_cocina_to_crear receta",
         "visible": true
       }
     ]
