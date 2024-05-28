@@ -3,9 +3,9 @@
     "version": "2.2.13",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -261.4195609279612,
-    "scrollLeft": -122.45379999999999,
-    "zoomLevel": 0.8,
+    "scrollTop": 0,
+    "scrollLeft": 0,
+    "zoomLevel": 1,
     "show": {
       "tableComment": false,
       "columnComment": false,
@@ -673,9 +673,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 476.5987,
-          "top": 314.7131,
-          "zIndex": 264,
+          "left": 508.5987,
+          "top": 365.7131,
+          "zIndex": 280,
           "widthName": 94.16666412353516,
           "widthComment": 60
         },
@@ -935,9 +935,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 359.2025,
-          "top": 521.9762,
-          "zIndex": 244,
+          "left": 436.2025,
+          "top": 552.9762,
+          "zIndex": 278,
           "widthName": 84.05000305175781,
           "widthComment": 60
         },
@@ -1065,10 +1065,10 @@
           }
         ],
         "ui": {
-          "active": false,
-          "left": 447.5872,
+          "active": true,
+          "left": 450.5872,
           "top": 90.6347,
-          "zIndex": 265,
+          "zIndex": 281,
           "widthName": 80.41666412353516,
           "widthComment": 60
         },
@@ -1197,9 +1197,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 1783.404,
+          "left": 1619.404,
           "top": 483.4915,
-          "zIndex": 251,
+          "zIndex": 270,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1482,9 +1482,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 421.1902,
-          "top": 768.005,
-          "zIndex": 236,
+          "left": 454.1902,
+          "top": 766.005,
+          "zIndex": 279,
           "widthName": 124.23332977294922,
           "widthComment": 60
         },
@@ -2067,7 +2067,7 @@
           "columnIds": [
             "b0b08894-ebe0-41f9-9293-530bd1cb73f3"
           ],
-          "x": 611.8038671752929,
+          "x": 614.8038671752929,
           "y": 133.5097,
           "direction": "right"
         },
@@ -2093,7 +2093,7 @@
           "columnIds": [
             "ade155c5-2a95-4950-ab5a-08fd9ad435ba"
           ],
-          "x": 1783.404,
+          "x": 1619.404,
           "y": 526.3665,
           "direction": "left"
         },
@@ -2145,8 +2145,8 @@
           "columnIds": [
             "a5191838-4b56-41c2-b875-38f91640656d"
           ],
-          "x": 598.8524938964844,
-          "y": 617.9762,
+          "x": 675.8524938964844,
+          "y": 648.9762,
           "direction": "right"
         },
         "constraintName": "fk_receta_to_instrucciones",
@@ -2171,7 +2171,7 @@
           "columnIds": [
             "a60b6028-c31e-4e5d-b1a6-75536e5c75ee"
           ],
-          "x": 1783.404,
+          "x": 1619.404,
           "y": 612.1165,
           "direction": "left"
         },
@@ -2223,7 +2223,7 @@
           "columnIds": [
             "0aeef3ce-2d9e-4e28-b487-e9185b941360"
           ],
-          "x": 611.8038671752929,
+          "x": 614.8038671752929,
           "y": 219.2597,
           "direction": "right"
         },
@@ -2275,8 +2275,8 @@
           "columnIds": [
             "c6f297e7-0b8c-429f-bbcd-1d1bb119fb41"
           ],
-          "x": 601.8068687011719,
-          "y": 927.38,
+          "x": 634.8068687011719,
+          "y": 925.38,
           "direction": "right"
         },
         "constraintName": "fk_ingredientes_to_variedadingredientes",
@@ -2301,8 +2301,8 @@
           "columnIds": [
             "2f498a7d-8891-44ac-8585-e4ea02d41eb8"
           ],
-          "x": 601.8068687011719,
-          "y": 821.13,
+          "x": 634.8068687011719,
+          "y": 819.13,
           "direction": "right"
         },
         "constraintName": "fk_receta_to_variedadingredientes",
@@ -2318,8 +2318,8 @@
           "columnIds": [
             "0b153bd6-b65d-4277-8054-bac4d0c2ee2b"
           ],
-          "x": 603.0820297729492,
-          "y": 379.9631,
+          "x": 635.0820297729492,
+          "y": 430.9631,
           "direction": "right"
         },
         "end": {
