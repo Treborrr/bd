@@ -3,9 +3,9 @@
     "version": "2.2.13",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -105,
-    "scrollLeft": -195.99317958872794,
-    "zoomLevel": 0.9,
+    "scrollTop": -293.81500000000005,
+    "scrollLeft": -110.19000000000001,
+    "zoomLevel": 1,
     "show": {
       "tableComment": false,
       "columnComment": false,
@@ -64,15 +64,15 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 67.025390625,
+              "widthName": 69.30000305175781,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             }
           },
           {
-            "id": "f629cbff-9c5b-4db6-8dbb-21431e936536",
-            "name": "Nombre del usuario",
+            "id": "82b786cd-ee06-4fa9-b3c3-1422ff0a8bdd",
+            "name": "Fecha de registro",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -87,7 +87,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 115.4453125,
+              "widthName": 107.46666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -110,7 +110,30 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 69.208984375,
+              "widthName": 72.13333129882812,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "f629cbff-9c5b-4db6-8dbb-21431e936536",
+            "name": "Nombre del usuario",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 123.98332977294922,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -133,7 +156,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 108.21533203125,
+              "widthName": 114.56666564941406,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -156,7 +179,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 122.681640625,
+              "widthName": 128.0999984741211,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -211,9 +234,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 228.5,
-          "top": 58.5,
-          "zIndex": 124,
+          "left": 686,
+          "top": 372.25,
+          "zIndex": 43,
           "widthName": 60,
           "widthComment": 60
         },
@@ -241,15 +264,15 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 62.63333511352539,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
             }
           },
           {
-            "id": "06c8acca-01ac-4a7b-a2f0-8d549c89ff01",
-            "name": "Autor",
+            "id": "97550a8a-f7da-4fcd-8f12-df2421a6bb65",
+            "name": "ID_Usuario",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -257,14 +280,14 @@
               "autoIncrement": false,
               "primaryKey": false,
               "unique": false,
-              "notNull": false
+              "notNull": true
             },
             "ui": {
               "active": false,
               "pk": false,
-              "fk": false,
+              "fk": true,
               "pfk": false,
-              "widthName": 60,
+              "widthName": 69.30000305175781,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -310,7 +333,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 69.91357421875,
+              "widthName": 73.48332977294922,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -356,30 +379,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 103.88623046875,
-              "widthComment": 60,
-              "widthDataType": 60,
-              "widthDefault": 60
-            }
-          },
-          {
-            "id": "97550a8a-f7da-4fcd-8f12-df2421a6bb65",
-            "name": "ID_Usuario",
-            "comment": "",
-            "dataType": "",
-            "default": "",
-            "option": {
-              "autoIncrement": false,
-              "primaryKey": false,
-              "unique": false,
-              "notNull": true
-            },
-            "ui": {
-              "active": false,
-              "pk": false,
-              "fk": true,
-              "pfk": false,
-              "widthName": 67.025390625,
+              "widthName": 111.41666412353516,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -402,7 +402,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 78.59716796875,
+              "widthName": 81.08333587646484,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -425,7 +425,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 95.92626953125,
+              "widthName": 95.96666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -448,7 +448,53 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 62.6962890625,
+              "widthName": 62.650001525878906,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "04c4400e-cdf2-4110-a401-5ad1cb2fcc98",
+            "name": "Fecha de creacion",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 111.21666717529297,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "03b6e2f6-7cf4-4877-9ec9-7f33ee61bca1",
+            "name": "",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 60,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -457,10 +503,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 1107.8896,
-          "top": 281.3326,
-          "zIndex": 343,
-          "widthName": 93.05078125,
+          "left": 1026.6396,
+          "top": 384.3326,
+          "zIndex": 130,
+          "widthName": 94.30000305175781,
           "widthComment": 60
         },
         "visible": true
@@ -487,7 +533,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 78.59716796875,
+              "widthName": 81.08333587646484,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -533,7 +579,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 69.91357421875,
+              "widthName": 73.48332977294922,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -542,10 +588,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 580.1668,
-          "top": 379.1107,
-          "zIndex": 345,
-          "widthName": 60,
+          "left": 228.9168,
+          "top": 142.8607,
+          "zIndex": 64,
+          "widthName": 61.43333435058594,
           "widthComment": 60
         },
         "visible": true
@@ -572,7 +618,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 62.6962890625,
+              "widthName": 62.650001525878906,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -618,7 +664,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 69.91357421875,
+              "widthName": 73.48332977294922,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -627,9 +673,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 755.7768,
-          "top": 561.6104,
-          "zIndex": 346,
+          "left": 657.0268,
+          "top": 619.1104,
+          "zIndex": 55,
           "widthName": 60,
           "widthComment": 60
         },
@@ -657,7 +703,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 87.28076171875,
+              "widthName": 93.28333282470703,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -703,7 +749,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 95.95166015625,
+              "widthName": 101.08333587646484,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -714,8 +760,8 @@
           "active": false,
           "left": 1287.548,
           "top": 631.476,
-          "zIndex": 316,
-          "widthName": 73.55078125,
+          "zIndex": 2,
+          "widthName": 79.86666870117188,
           "widthComment": 60
         },
         "visible": true
@@ -742,7 +788,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 98.82080078125,
+              "widthName": 103.69999694824219,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -765,7 +811,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 128.470703125,
+              "widthName": 133.25,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -788,7 +834,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 177.59521484375,
+              "widthName": 186.64999389648438,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -811,7 +857,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 62.63333511352539,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -834,7 +880,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 95.92626953125,
+              "widthName": 95.96666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -843,10 +889,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 700.8099,
-          "top": 787.2622,
-          "zIndex": 348,
-          "widthName": 78.5908203125,
+          "left": 262.0599,
+          "top": 797.2622,
+          "zIndex": 51,
+          "widthName": 84.05000305175781,
           "widthComment": 60
         },
         "visible": true
@@ -873,7 +919,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 89.42626953125,
+              "widthName": 93.83333587646484,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -896,7 +942,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 61.26806640625,
+              "widthName": 65.4000015258789,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -919,7 +965,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 108.95166015625,
+              "widthName": 111.21666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -942,7 +988,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 67.025390625,
+              "widthName": 69.30000305175781,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -965,7 +1011,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 62.63333511352539,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -976,8 +1022,8 @@
           "active": false,
           "left": 891.5554,
           "top": 107.7774,
-          "zIndex": 340,
-          "widthName": 75.6962890625,
+          "zIndex": 4,
+          "widthName": 80.41666412353516,
           "widthComment": 60
         },
         "visible": true
@@ -1004,7 +1050,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 72.0908203125,
+              "widthName": 75.03333282470703,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1027,7 +1073,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 108.95166015625,
+              "widthName": 111.21666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1050,7 +1096,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 62.46142578125,
+              "widthName": 65.95000076293945,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1073,7 +1119,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 67.025390625,
+              "widthName": 69.30000305175781,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1096,7 +1142,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 62.63333511352539,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1107,7 +1153,7 @@
           "active": false,
           "left": 1157.881,
           "top": 13.5876,
-          "zIndex": 339,
+          "zIndex": 3,
           "widthName": 60,
           "widthComment": 60
         },
@@ -1135,7 +1181,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 110.3798828125,
+              "widthName": 111.86666870117188,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1158,7 +1204,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 108.95166015625,
+              "widthName": 111.21666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1181,7 +1227,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 67.025390625,
+              "widthName": 69.30000305175781,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1204,7 +1250,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 62.63333511352539,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1213,10 +1259,10 @@
         ],
         "ui": {
           "active": false,
-          "left": 526.1436,
-          "top": 217.7776,
-          "zIndex": 342,
-          "widthName": 93.76171875,
+          "left": 518.6436,
+          "top": 37.7776,
+          "zIndex": 33,
+          "widthName": 95.5999984741211,
           "widthComment": 60
         },
         "visible": true
@@ -1243,7 +1289,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 95.92626953125,
+              "widthName": 95.96666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1266,7 +1312,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 111.83984375,
+              "widthName": 113.19999694824219,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1312,7 +1358,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 69.91357421875,
+              "widthName": 73.48332977294922,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1358,7 +1404,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 103.88623046875,
+              "widthName": 111.41666412353516,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1381,7 +1427,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 121.9326171875,
+              "widthName": 128.36666870117188,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1404,7 +1450,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 67.025390625,
+              "widthName": 69.30000305175781,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1427,7 +1473,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 78.59716796875,
+              "widthName": 81.08333587646484,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1450,7 +1496,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 62.6962890625,
+              "widthName": 62.650001525878906,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1458,11 +1504,11 @@
           }
         ],
         "ui": {
-          "active": true,
-          "left": 330.2941,
-          "top": 518.1263,
-          "zIndex": 349,
-          "widthName": 79.30810546875,
+          "active": false,
+          "left": 189.0441,
+          "top": 435.6263,
+          "zIndex": 57,
+          "widthName": 79.69999694824219,
           "widthComment": 60
         },
         "visible": true
@@ -1489,7 +1535,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 95.95166015625,
+              "widthName": 101.08333587646484,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1512,7 +1558,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 67.76806640625,
+              "widthName": 70.46666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1535,7 +1581,7 @@
               "pk": false,
               "fk": false,
               "pfk": false,
-              "widthName": 121.2470703125,
+              "widthName": 127.61666870117188,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1558,7 +1604,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 87.28076171875,
+              "widthName": 93.28333282470703,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1581,7 +1627,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 63.419921875,
+              "widthName": 62.63333511352539,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1604,7 +1650,7 @@
               "pk": false,
               "fk": true,
               "pfk": false,
-              "widthName": 95.92626953125,
+              "widthName": 95.96666717529297,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1613,10 +1659,72 @@
         ],
         "ui": {
           "active": false,
-          "left": 989.5398,
-          "top": 650.8902,
-          "zIndex": 347,
-          "widthName": 124.6240234375,
+          "left": 859.5398,
+          "top": 784.6402,
+          "zIndex": 56,
+          "widthName": 134.0500030517578,
+          "widthComment": 60
+        },
+        "visible": true
+      },
+      {
+        "id": "6efd2403-7c0e-4bf1-8346-45e622eac429",
+        "name": "Dificultad",
+        "comment": "",
+        "columns": [
+          {
+            "id": "6c28a8b7-b158-46b5-953b-9b8c75405420",
+            "name": "ID_Dificultad",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": true,
+              "unique": false,
+              "notNull": true
+            },
+            "ui": {
+              "active": false,
+              "pk": true,
+              "fk": false,
+              "pfk": false,
+              "widthName": 79.93333435058594,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          },
+          {
+            "id": "a738106a-c790-4439-9226-dadd5872642a",
+            "name": "descripcion",
+            "comment": "",
+            "dataType": "",
+            "default": "",
+            "option": {
+              "autoIncrement": false,
+              "primaryKey": false,
+              "unique": false,
+              "notNull": false
+            },
+            "ui": {
+              "active": false,
+              "pk": false,
+              "fk": false,
+              "pfk": false,
+              "widthName": 72,
+              "widthComment": 60,
+              "widthDataType": 60,
+              "widthDefault": 60
+            }
+          }
+        ],
+        "ui": {
+          "active": false,
+          "left": 1274.19,
+          "top": 418.815,
+          "zIndex": 129,
+          "widthName": 60.28333282470703,
           "widthComment": 60
         },
         "visible": true
@@ -1639,8 +1747,8 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 404.181640625,
-          "y": 244.4375,
+          "x": 867.0999984741211,
+          "y": 488.75,
           "direction": "right"
         },
         "end": {
@@ -1648,8 +1756,8 @@
           "columnIds": [
             "97550a8a-f7da-4fcd-8f12-df2421a6bb65"
           ],
-          "x": 1107.8896,
-          "y": 308.7326,
+          "x": 1026.6396,
+          "y": 472.6826,
           "direction": "left"
         },
         "constraintName": "fk_usuario_to_receta",
@@ -1665,9 +1773,9 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 404.181640625,
-          "y": 138.1875,
-          "direction": "right"
+          "x": 776.5499992370607,
+          "y": 372.25,
+          "direction": "top"
         },
         "end": {
           "tableId": "ff5cb572-9d66-4939-95a5-32782d3a864b",
@@ -1691,9 +1799,9 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 404.181640625,
-          "y": 85.0625,
-          "direction": "right"
+          "x": 836.9166653951011,
+          "y": 372.25,
+          "direction": "top"
         },
         "end": {
           "tableId": "b946d987-052d-47a7-862e-6de73757f9df",
@@ -1717,18 +1825,18 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 404.181640625,
-          "y": 191.3125,
-          "direction": "right"
+          "x": 716.1833330790203,
+          "y": 372.25,
+          "direction": "top"
         },
         "end": {
           "tableId": "d9a47759-6f6f-499b-accb-b0ee309bdf58",
           "columnIds": [
             "ee0c68f3-c9b9-4dc5-b386-c6b1ac26a7b9"
           ],
-          "x": 526.1436,
-          "y": 293.2776,
-          "direction": "left"
+          "x": 601.0769343505859,
+          "y": 188.7776,
+          "direction": "bottom"
         },
         "constraintName": "fk_usuario_to_receta favorita",
         "visible": true
@@ -1743,17 +1851,17 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 1147.1111576171875,
-          "y": 555.3326,
-          "direction": "bottom"
+          "x": 1026.6396,
+          "y": 649.3825999999999,
+          "direction": "left"
         },
         "end": {
           "tableId": "e6d6ce7e-90bf-433e-9518-b53a7849de5b",
           "columnIds": [
             "a5191838-4b56-41c2-b875-38f91640656d"
           ],
-          "x": 931.40511484375,
-          "y": 873.0122,
+          "x": 501.7098938964844,
+          "y": 883.0122,
           "direction": "right"
         },
         "constraintName": "fk_receta_to_instrucciones",
@@ -1769,8 +1877,8 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 1225.5542728515625,
-          "y": 281.3326,
+          "x": 1163.6534867696125,
+          "y": 384.3326,
           "direction": "top"
         },
         "end": {
@@ -1778,7 +1886,7 @@
           "columnIds": [
             "a60b6028-c31e-4e5d-b1a6-75536e5c75ee"
           ],
-          "x": 1238.856830078125,
+          "x": 1239.9893335876466,
           "y": 185.0876,
           "direction": "bottom"
         },
@@ -1795,18 +1903,18 @@
           "columnIds": [
             "cbb4891b-25ce-4515-ad97-16fe77bfc0fb"
           ],
-          "x": 316.3408203125,
-          "y": 271,
-          "direction": "bottom"
+          "x": 686,
+          "y": 488.75,
+          "direction": "left"
         },
         "end": {
           "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
           "columnIds": [
             "21bba57f-344e-46a7-b752-cc53eb5ec760"
           ],
-          "x": 374.027254296875,
-          "y": 518.1263,
-          "direction": "top"
+          "x": 370.41076870117183,
+          "y": 469.8763,
+          "direction": "right"
         },
         "constraintName": "fk_usuario_to_receta usuario",
         "visible": true
@@ -1821,17 +1929,17 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 1107.8896,
-          "y": 363.5326,
-          "direction": "left"
+          "x": 1054.0423773539226,
+          "y": 384.3326,
+          "direction": "top"
         },
         "end": {
           "tableId": "d9a47759-6f6f-499b-accb-b0ee309bdf58",
           "columnIds": [
             "656385f5-a212-46c1-8445-7210163a36eb"
           ],
-          "x": 689.5234828125,
-          "y": 293.2776,
+          "x": 683.5102687011719,
+          "y": 113.2776,
           "direction": "right"
         },
         "constraintName": "fk_receta_to_receta favorita",
@@ -1847,8 +1955,8 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 1147.1111576171875,
-          "y": 281.3326,
+          "x": 1108.8479320617676,
+          "y": 384.3326,
           "direction": "top"
         },
         "end": {
@@ -1856,9 +1964,9 @@
           "columnIds": [
             "0aeef3ce-2d9e-4e28-b487-e9185b941360"
           ],
-          "x": 1053.50706015625,
-          "y": 193.5274,
-          "direction": "right"
+          "x": 973.6637335876464,
+          "y": 279.2774,
+          "direction": "bottom"
         },
         "constraintName": "fk_receta_to_comentarios",
         "visible": true
@@ -1873,8 +1981,8 @@
           "columnIds": [
             "ba8c0cdd-eeeb-43e9-95db-fd014ad03419"
           ],
-          "x": 711.76396796875,
-          "y": 444.3607,
+          "x": 363.0001358764648,
+          "y": 208.1107,
           "direction": "right"
         },
         "end": {
@@ -1882,8 +1990,8 @@
           "columnIds": [
             "054c5057-a911-41c5-8ea1-1613c2aa2bd3"
           ],
-          "x": 1107.8896,
-          "y": 418.3326,
+          "x": 1026.6396,
+          "y": 413.7826,
           "direction": "left"
         },
         "constraintName": "fk_categoria_to_receta",
@@ -1908,8 +2016,8 @@
           "columnIds": [
             "c6f297e7-0b8c-429f-bbcd-1d1bb119fb41"
           ],
-          "x": 1163.7868703125,
-          "y": 746.8902,
+          "x": 1040.156468701172,
+          "y": 880.6402,
           "direction": "right"
         },
         "constraintName": "fk_ingredientes_to_variedadingredientes",
@@ -1925,8 +2033,8 @@
           "columnIds": [
             "3b6f93db-16a3-457a-a368-8dd4f9460e4b"
           ],
-          "x": 1225.5542728515625,
-          "y": 555.3326,
+          "x": 1108.8479320617676,
+          "y": 678.8326,
           "direction": "bottom"
         },
         "end": {
@@ -1934,8 +2042,8 @@
           "columnIds": [
             "2f498a7d-8891-44ac-8585-e4ea02d41eb8"
           ],
-          "x": 1076.66333515625,
-          "y": 650.8902,
+          "x": 949.848134350586,
+          "y": 784.6402,
           "direction": "top"
         },
         "constraintName": "fk_receta_to_variedadingredientes",
@@ -1951,8 +2059,8 @@
           "columnIds": [
             "0b153bd6-b65d-4277-8054-bac4d0c2ee2b"
           ],
-          "x": 878.69037421875,
-          "y": 626.8604,
+          "x": 783.5101297729492,
+          "y": 684.3604,
           "direction": "right"
         },
         "end": {
@@ -1960,8 +2068,8 @@
           "columnIds": [
             "2face270-0337-47b7-afbe-c1bf4ea6c584"
           ],
-          "x": 1107.8896,
-          "y": 473.1326,
+          "x": 1026.6396,
+          "y": 590.4825999999999,
           "direction": "left"
         },
         "constraintName": "fk_cocina_to_receta",
@@ -1977,8 +2085,8 @@
           "columnIds": [
             "7f679fbc-db11-489d-b6a5-4f45905aedd6"
           ],
-          "x": 505.2267171875,
-          "y": 552.3763,
+          "x": 370.41076870117183,
+          "y": 538.3763,
           "direction": "right"
         },
         "end": {
@@ -1986,8 +2094,8 @@
           "columnIds": [
             "1eab7d01-1754-40c4-bf58-366965f3357f"
           ],
-          "x": 1107.8896,
-          "y": 527.9326,
+          "x": 1026.6396,
+          "y": 531.5826,
           "direction": "left"
         },
         "constraintName": "fk_crear receta_to_receta general",
@@ -2003,18 +2111,18 @@
           "columnIds": [
             "7f679fbc-db11-489d-b6a5-4f45905aedd6"
           ],
-          "x": 505.2267171875,
-          "y": 757.8763,
-          "direction": "right"
+          "x": 279.7274343505859,
+          "y": 709.6263,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "e6d6ce7e-90bf-433e-9518-b53a7849de5b",
           "columnIds": [
             "2facce76-e6a9-4ef1-bcf6-52cb5381b272"
           ],
-          "x": 700.8099,
-          "y": 873.0122,
-          "direction": "left"
+          "x": 381.8848969482422,
+          "y": 797.2622,
+          "direction": "top"
         },
         "constraintName": "fk_crear receta_to_instrucciones",
         "visible": true
@@ -2029,8 +2137,8 @@
           "columnIds": [
             "7f679fbc-db11-489d-b6a5-4f45905aedd6"
           ],
-          "x": 505.2267171875,
-          "y": 689.3763,
+          "x": 370.41076870117183,
+          "y": 675.3763,
           "direction": "right"
         },
         "end": {
@@ -2038,8 +2146,8 @@
           "columnIds": [
             "f87b9745-b713-4718-affd-248cb623c751"
           ],
-          "x": 989.5398,
-          "y": 746.8902,
+          "x": 859.5398,
+          "y": 880.6402,
           "direction": "left"
         },
         "constraintName": "fk_crear receta_to_variedadingredientes",
@@ -2055,17 +2163,17 @@
           "columnIds": [
             "ba8c0cdd-eeeb-43e9-95db-fd014ad03419"
           ],
-          "x": 580.1668,
-          "y": 444.3607,
-          "direction": "left"
+          "x": 295.9584679382324,
+          "y": 273.3607,
+          "direction": "bottom"
         },
         "end": {
           "tableId": "ab1cf4fe-af8d-409b-8150-de6decf2acfd",
           "columnIds": [
             "ad420acb-8a87-4b89-9366-adee8564f3d1"
           ],
-          "x": 461.493562890625,
-          "y": 518.1263,
+          "x": 279.7274343505859,
+          "y": 435.6263,
           "direction": "top"
         },
         "constraintName": "fk_categoria_to_crear receta",
@@ -2081,8 +2189,8 @@
           "columnIds": [
             "0b153bd6-b65d-4277-8054-bac4d0c2ee2b"
           ],
-          "x": 755.7768,
-          "y": 626.8604,
+          "x": 657.0268,
+          "y": 684.3604,
           "direction": "left"
         },
         "end": {
@@ -2090,8 +2198,8 @@
           "columnIds": [
             "b2102d70-e893-45d6-9899-e9605b707afa"
           ],
-          "x": 505.2267171875,
-          "y": 620.8763,
+          "x": 370.41076870117183,
+          "y": 606.8763,
           "direction": "right"
         },
         "constraintName": "fk_cocina_to_crear receta",
