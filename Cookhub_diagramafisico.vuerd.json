@@ -3,8 +3,8 @@
     "version": "2.2.13",
     "width": 2000,
     "height": 2000,
-    "scrollTop": -199.66668701171875,
-    "scrollLeft": -204.4000244140625,
+    "scrollTop": -210,
+    "scrollLeft": -188.4000244140625,
     "zoomLevel": 0.8,
     "show": {
       "tableComment": false,
@@ -18,7 +18,7 @@
       "relationship": true
     },
     "database": "MySQL",
-    "databaseName": "",
+    "databaseName": "CookHub",
     "canvasType": "ERD",
     "language": "GraphQL",
     "tableCase": "pascalCase",
@@ -950,7 +950,7 @@
         "columns": [
           {
             "id": "4e1736bd-b9fd-4470-b41b-0682b8f814f6",
-            "name": "ID_Comentario",
+            "name": "ID_Comentario    ",
             "comment": "",
             "dataType": "",
             "default": "",
@@ -965,7 +965,7 @@
               "pk": true,
               "fk": false,
               "pfk": false,
-              "widthName": 93.71641540527344,
+              "widthName": 107.20895385742188,
               "widthComment": 60,
               "widthDataType": 60,
               "widthDefault": 60
@@ -1066,9 +1066,9 @@
         ],
         "ui": {
           "active": false,
-          "left": 450.5872,
-          "top": 90.6347,
-          "zIndex": 12,
+          "left": 435.5872,
+          "top": 91.8847,
+          "zIndex": 46,
           "widthName": 80.29850769042969,
           "widthComment": 60
         },
@@ -2067,8 +2067,8 @@
           "columnIds": [
             "b0b08894-ebe0-41f9-9293-530bd1cb73f3"
           ],
-          "x": 614.6916769287109,
-          "y": 133.5097,
+          "x": 599.6916769287109,
+          "y": 134.7597,
           "direction": "right"
         },
         "constraintName": "fk_usuario_to_comentarios",
@@ -2223,8 +2223,8 @@
           "columnIds": [
             "0aeef3ce-2d9e-4e28-b487-e9185b941360"
           ],
-          "x": 614.6916769287109,
-          "y": 219.2597,
+          "x": 599.6916769287109,
+          "y": 220.5097,
           "direction": "right"
         },
         "constraintName": "fk_receta_to_comentarios",
